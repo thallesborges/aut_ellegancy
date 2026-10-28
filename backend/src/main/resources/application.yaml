@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: EllegancyNFSE
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Ellegancy
+    username: postgres
+    password: thbc
+  flyway:
+    out-of-order: true
